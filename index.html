@@ -8,6 +8,8 @@
         <title>Scrolling Nav - Portfólio Profissional Template</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -19,6 +21,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#curriculo">Currículo</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -27,18 +30,18 @@
         <!-- Header-->
         <header class="bg-primary bg-gradient text-white">
             <div class="container px-4 text-center">
-                <h1 class="fw-bolder">Pedro Enzo Martins Clemente </h1>
+                <h1 class="fw-bolder">Pedro Enzo Martins Clemente</h1>
                 <p class="lead">Estudante do UNICEUB Cursando Ciência da computação</p>
-                <a class="btn btn-lg btn-light" href="#about">Clique Aqui!</a>
+                <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
             </div>
         </header>
         <!-- About section-->
-        <section id="Sobre Min">
+        <section id="about">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
                         <h2>About this page</h2>
-                        <p class="lead">Me Chamo Pedro Enzo, Sou Estudante do UNICEUB Cursando Ciência da computação é Abaixo estão anexados meus slides, projetos e reposítorios:</p>
+                        <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
                         <!-- Slide do Google Slides -->
                         <div class="ratio ratio-16x9 mb-4">
                             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRN0Nwjx53Ynb6uM8PzqJWBT2t9ageBZvfN4f4vGez9bsGu_6lJv_Wc9pYDVBLoeHp-DNsomh96VcSM/pubembed?start=true&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -64,20 +67,57 @@
                 </div>
             </div>
         </section>
-        <!-- Contact section-->
-        <section id="contact">
+        <!-- Currículo section-->
+        <section id="curriculo">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>Contact us</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+                        <h2><i class="bi bi-file-earmark-person me-2"></i>Currículo</h2>
+                        <p class="lead">Visualize ou baixe meu currículo completo abaixo.</p>
+                        <!-- Botão de download -->
+                        <a href="curriculo.pdf" download class="btn btn-primary mb-3">
+                            <i class="bi bi-download me-2"></i>Baixar PDF
+                        </a>
+                        <!-- Visualizador do PDF -->
+                        <div class="ratio" style="--bs-aspect-ratio: 129%;">
+                            <iframe src="curriculo.pdf" type="application/pdf"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section class="bg-light" id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2><i class="bi bi-person-lines-fill me-2"></i>Contato</h2>
+                        <p class="lead">Fique à vontade para entrar em contato por qualquer um dos canais abaixo.</p>
+                        <ul class="list-unstyled fs-5">
+                            <li class="mb-3">
+                                <i class="bi bi-telephone-fill text-primary me-2"></i>
+                                <a href="tel:+5561998103801" class="text-decoration-none text-dark">61 99810-3801</a>
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-envelope-fill text-primary me-2"></i>
+                                <a href="mailto:pedroenzomartinsclement@gmail.com" class="text-decoration-none text-dark">pedroenzomartinsclement@gmail.com</a>
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-linkedin text-primary me-2"></i>
+                                <a href="https://www.linkedin.com/in/pedro-enzo-a5478b3b4" target="_blank" class="text-decoration-none text-dark">linkedin.com/in/pedro-enzo-a5478b3b4</a>
+                            </li>
+                            <li class="mb-3">
+                                <i class="bi bi-github text-primary me-2"></i>
+                                <a href="https://github.com/PedroEnzo71" target="_blank" class="text-decoration-none text-dark">github.com/PedroEnzo71</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Pedro Enzo Martins Clemente 2025</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
