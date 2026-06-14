@@ -10837,3 +10837,25 @@ section {
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
+
+/* Fundo global com gradiente escuro */
+body {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #e9e9e9; /* Texto claro para leitura */
+}
+
+/* Ajuste para as seções (bg-light do bootstrap fica mais escuro) */
+.bg-light {
+    background-color: #0f3460 !important;
+    color: #ffffff !important;
+}
+
+/* Ajuste para textos em seções escuras */
+.bg-light h2, .bg-light h5, .bg-light p {
+    color: #ffffff !important;
+}
+
+/* Ajuste para links na seção escura */
+.bg-light a {
+    color: #4cc9f0 !important;
+}
